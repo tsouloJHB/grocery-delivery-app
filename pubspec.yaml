@@ -1,0 +1,347 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  badges: ^3.1.2
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/ui-design/images/group-3364.png
+    - assets/ui-design/images/group-3369.png
+    - assets/ui-design/images/chevron-right.png
+    - assets/ui-design/images/group-3364-fiq.png
+    - assets/ui-design/images/chevron-right-19T.png
+    - assets/ui-design/images/back.png
+    - assets/ui-design/images/icon-right.png
+    - assets/ui-design/images/more.png
+    - assets/ui-design/images/chevron-right-SWD.png
+    - assets/ui-design/images/icon-right-PGm.png
+    - assets/ui-design/images/group-3364-FN9.png
+    - assets/ui-design/images/chevron-right-pm7.png
+    - assets/ui-design/images/group-3363.png
+    - assets/ui-design/images/auto-group-xoff.png
+    - assets/ui-design/images/group-3364-g6u.png
+    - assets/ui-design/images/chevron-right-x33.png
+    - assets/ui-design/images/chevron-right-v6D.png
+    - assets/ui-design/images/icon-right-JNd.png
+    - assets/ui-design/images/auto-group-t9gv.png
+    - assets/ui-design/images/chevron-right-fAR.png
+    - assets/ui-design/images/group-3364-hbF.png
+    - assets/ui-design/images/auto-group-ry2m.png
+    - assets/ui-design/images/group-3363-4ad.png
+    - assets/ui-design/images/back-ARw.png
+    - assets/ui-design/images/mask-group.png
+    - assets/ui-design/images/rectangle-1223.png
+    - assets/ui-design/images/path-46.png
+    - assets/ui-design/images/chat-icon.png
+    - assets/ui-design/images/path-52.png
+    - assets/ui-design/images/group-36.png
+    - assets/ui-design/images/restuarant-image.png
+    - assets/ui-design/images/path-60.png
+    - assets/ui-design/images/path-37.png
+    - assets/ui-design/images/group-64.png
+    - assets/ui-design/images/group-2551.png
+    - assets/ui-design/images/path-51.png
+    - assets/ui-design/images/more-o8D.png
+    - assets/ui-design/images/plus.png
+    - assets/ui-design/images/group-45.png
+    - assets/ui-design/images/group-2513.png
+    - assets/ui-design/images/group-34.png
+    - assets/ui-design/images/group-2551-7n9.png
+    - assets/ui-design/images/group-60.png
+    - assets/ui-design/images/group-53.png
+    - assets/ui-design/images/path-89.png
+    - assets/ui-design/images/group-65.png
+    - assets/ui-design/images/group-43.png
+    - assets/ui-design/images/path-54.png
+    - assets/ui-design/images/path-56.png
+    - assets/ui-design/images/group-49.png
+    - assets/ui-design/images/path-65.png
+    - assets/ui-design/images/group-58.png
+    - assets/ui-design/images/group-61.png
+    - assets/ui-design/images/path-39.png
+    - assets/ui-design/images/plus-ErV.png
+    - assets/ui-design/images/path-49.png
+    - assets/ui-design/images/path-38.png
+    - assets/ui-design/images/path-47.png
+    - assets/ui-design/images/profile-image.png
+    - assets/ui-design/images/vector.png
+    - assets/ui-design/images/path-53.png
+    - assets/ui-design/images/path-63.png
+    - assets/ui-design/images/group-42.png
+    - assets/ui-design/images/path-41.png
+    - assets/ui-design/images/path-55.png
+    - assets/ui-design/images/group-48.png
+    - assets/ui-design/images/path-42.png
+    - assets/ui-design/images/auto-group-rind.png
+    - assets/ui-design/images/group-47.png
+    - assets/ui-design/images/group-46.png
+    - assets/ui-design/images/clock.png
+    - assets/ui-design/images/rectangle-1223-ic9.png
+    - assets/ui-design/images/group-38.png
+    - assets/ui-design/images/mask-group-rCZ.png
+    - assets/ui-design/images/path-48.png
+    - assets/ui-design/images/group-50.png
+    - assets/ui-design/images/auto-group-6zsk.png
+    - assets/ui-design/images/path-57.png
+    - assets/ui-design/images/rectangle-1223-hpd.png
+    - assets/ui-design/images/path-43.png
+    - assets/ui-design/images/path-50.png
+    - assets/ui-design/images/group-2513-JLZ.png
+    - assets/ui-design/images/group-54.png
+    - assets/ui-design/images/plus-e9X.png
+    - assets/ui-design/images/group-37.png
+    - assets/ui-design/images/mask-group-PqB.png
+    - assets/ui-design/images/group-33.png
+    - assets/ui-design/images/group-1823.png
+    - assets/ui-design/images/path-58.png
+    - assets/ui-design/images/back-eKj.png
+    - assets/ui-design/images/rectangle-1223-dDb.png
+    - assets/ui-design/images/rectangle-1223-9bF.png
+    - assets/ui-design/images/group-35.png
+    - assets/ui-design/images/auto-group-mhfp.png
+    - assets/ui-design/images/group-52.png
+    - assets/ui-design/images/group-39.png
+    - assets/ui-design/images/rectangle-1223-3gu.png
+    - assets/ui-design/images/group-62.png
+    - assets/ui-design/images/path-67.png
+    - assets/ui-design/images/group-59.png
+    - assets/ui-design/images/group-57.png
+    - assets/ui-design/images/back-yhb.png
+    - assets/ui-design/images/path-36.png
+    - assets/ui-design/images/back-KxM.png
+    - assets/ui-design/images/group-1823-w21.png
+    - assets/ui-design/images/rectangle-1344.png
+    - assets/ui-design/images/track-order.png
+    - assets/ui-design/images/star-1.png
+    - assets/ui-design/images/auto-group-1cq1.png
+    - assets/ui-design/images/path-68.png
+    - assets/ui-design/images/rectangle-1223-xMP.png
+    - assets/ui-design/images/group-63.png
+    - assets/ui-design/images/path-90.png
+    - assets/ui-design/images/path-45.png
+    - assets/ui-design/images/path-61.png
+    - assets/ui-design/images/group-40.png
+    - assets/ui-design/images/group-44.png
+    - assets/ui-design/images/path-40.png
+    - assets/ui-design/images/auto-group-h9wf.png
+    - assets/ui-design/images/path-44.png
+    - assets/ui-design/images/save.png
+    - assets/ui-design/images/path-62.png
+    - assets/ui-design/images/auto-group-7gft.png
+    - assets/ui-design/images/group-56.png
+    - assets/ui-design/images/path-66.png
+    - assets/ui-design/images/rectangle-1223-6t1.png
+    - assets/ui-design/images/auto-group-x5mt.png
+    - assets/ui-design/images/group-2551-jqj.png
+    - assets/ui-design/images/auto-group-f8jv.png
+    - assets/ui-design/images/auto-group-zevw.png
+    - assets/ui-design/images/image.png
+    - assets/ui-design/images/clock-fHB.png
+    - assets/ui-design/images/path-59.png
+    - assets/ui-design/images/auto-group-td6y.png
+    - assets/ui-design/images/top.png
+    - assets/ui-design/images/rectangle-1344-LXK.png
+    - assets/ui-design/images/auto-group-utlm.png
+    - assets/ui-design/images/rectangle-1344-5z1.png
+    - assets/ui-design/images/auto-group-di1o.png
+    - assets/ui-design/images/image-345.png
+    - assets/ui-design/images/vector-gWM.png
+    - assets/ui-design/images/rectangle-23.png
+    - assets/ui-design/images/path-69.png
+    - assets/ui-design/images/vector-UcH.png
+    - assets/ui-design/images/icon.png
+    - assets/ui-design/images/group-55.png
+    - assets/ui-design/images/ea-checkers515wx515h-2-bg.png
+    - assets/ui-design/images/menu.png
+    - assets/ui-design/images/search.png
+    - assets/ui-design/images/delivery.png
+    - assets/ui-design/images/group-41.png
+    - assets/ui-design/images/polygon-1.png
+    - assets/ui-design/images/star-1-2yX.png
+    - assets/ui-design/images/star-1-8VX.png
+    - assets/ui-design/images/more-DKF.png
+    - assets/ui-design/images/rectangle-1344-ub7.png
+    - assets/ui-design/images/group-32.png
+    - assets/ui-design/images/ea-checkers300wx300h-1.png
+    - assets/ui-design/images/eye-off.png
+    - assets/ui-design/images/heromobilemapssdks-1-bg.png
+    - assets/ui-design/images/ea-checkers515wx515h-1.png
+    - assets/ui-design/images/ea-checkers515wx515h-1-8SV.png
+    - assets/ui-design/images/clock-5aH.png
+    - assets/ui-design/images/kisspng-meat-grinder-delicatessen-sausage-mincing-5af0f5e9043c82-1-bg.png
+    - assets/ui-design/images/rectangle.png
+    - assets/ui-design/images/key-light.png
+    - assets/ui-design/images/path-64.png
+    - assets/ui-design/images/dictation.png
+    - assets/ui-design/images/rectangle-gnm.png
+    - assets/ui-design/images/group-2317.png
+    - assets/ui-design/images/back-cAd.png
+    - assets/ui-design/images/remove.png
+    - assets/ui-design/images/eye-off-5a1.png
+    - assets/ui-design/images/group-8256.png
+    - assets/ui-design/images/shoprite-holdings-logo-2.png
+    - assets/ui-design/images/shoprite-holdings-logo-2-wTw.png
+    - assets/ui-design/images/rectangle-EY9.png
+    - assets/ui-design/images/back-ki5.png
+    - assets/ui-design/images/image-vhF.png
+    - assets/ui-design/images/pngitem3255226-1.png
+    - assets/ui-design/images/vector-f8u.png
+    - assets/ui-design/images/key-light-SUR.png
+    - assets/ui-design/images/map-1-bg.png
+    - assets/ui-design/images/ea-checkers515wx515h-2-bg-aid.png
+    - assets/ui-design/images/emoji.png
+    - assets/ui-design/images/back-Ttm.png
+    - assets/ui-design/images/kisspng-meat-grinder-delicatessen-sausage-mincing-5af0f5e9043c82-2.png
+    - assets/ui-design/images/group-8244.png
+    - assets/ui-design/images/shoprite-holdings-logo-1.png
+    - assets/ui-design/images/pngkey-1.png
+    - assets/ui-design/images/groceries-1.png
+    - assets/ui-design/images/huge-icon-ecommerce-outline-shopping-basket-02.png
+    - assets/ui-design/images/group-8188.png
+    - assets/ui-design/images/group.png
+    - assets/ui-design/images/shoprite-holdings-logo-3.png
+    - assets/ui-design/images/map-pin.png
+    - assets/ui-design/images/image-bAq.png
+    - assets/ui-design/images/huge-icon-smart-house-solid-home.png
+    - assets/ui-design/images/huge-icon-user-outline-user.png
+    - assets/ui-design/images/search-XqT.png
+    - assets/ui-design/images/group-18118.png
+    - assets/ui-design/images/huge-icon-ecommerce-outline-shopping-basket-02-3RK.png
+    - assets/ui-design/images/paypal-icon-1.png
+    - assets/ui-design/images/rectangle-1344-NSD.png
+    - assets/ui-design/images/polygon-1-huj.png
+    - assets/ui-design/images/plus-WT3.png
+    - assets/ui-design/images/rectangle-1344-HEq.png
+    - assets/ui-design/images/back-SRo.png
+    - assets/ui-design/images/search-jaR.png
+    - assets/ui-design/images/vegetable-photos-1.png
+    - assets/ui-design/images/huge-icon-smart-house-solid-home-8y7.png
+    - assets/ui-design/images/mastercard.png
+    - assets/ui-design/images/huge-icon-user-outline-user-U7B.png
+    - assets/ui-design/images/close.png
+    - assets/ui-design/images/google300221-1.png
+    - assets/ui-design/images/image-backround-bg.png
+    - assets/ui-design/images/rectangle-1344-JZf.png
+    - assets/ui-design/images/cross.png
+    - assets/ui-design/images/office.png
+    - assets/ui-design/images/firework-1.png
+    - assets/ui-design/images/edit-icon.png
+    - assets/ui-design/images/vector-wpD.png
+    - assets/ui-design/images/instant-eft-logo-1.png
+    - assets/ui-design/images/delete-icon.png
+    - assets/ui-design/images/ea-checkers515wx515h-1-ZEZ.png
+    - assets/ui-design/images/group-2dw.png
+    - assets/ui-design/images/groceries-1-1.png
+    - assets/ui-design/images/delivery-bike-1.png
+    - assets/ui-design/images/auto-group-yxwo.png
+    - assets/ui-design/images/back-iJD.png
+    - assets/ui-design/images/edit-icon-axH.png
+    - assets/ui-design/images/cross-7Kw.png
+    - assets/ui-design/images/close-L2D.png
+    - assets/ui-design/images/back-nPK.png
+    - assets/ui-design/images/group-Ke9.png
+    - assets/ui-design/images/back-SkZ.png
+    - assets/ui-design/images/group-3423.png
+    - assets/ui-design/images/edit-icon-8fj.png
+    - assets/ui-design/images/paypal-icon-1-7DT.png
+    - assets/ui-design/images/rectangle-1223-UN5.png
+    - assets/ui-design/images/auto-group-qicy.png
+    - assets/ui-design/images/group-3425.png
+    - assets/ui-design/images/delete-icon-EAu.png
+    - assets/ui-design/images/home.png
+    - assets/ui-design/images/.png
+    - assets/ui-design/images/rectangle-1223-V3f.png
+    - assets/ui-design/images/profile.png
+    - assets/ui-design/images/mask-group-gmF.png
+    - assets/ui-design/images/back-h9s.png
+    - assets/ui-design/images/group-3363-uVT.png
+    - assets/ui-design/images/map.png
+    - assets/ui-design/images/special.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
