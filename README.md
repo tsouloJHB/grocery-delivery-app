@@ -52,7 +52,7 @@ Using the Grocery Delivery App is easy:
 
 Sign in or create an account.
 Browse local retail stores and add items to your cart.
-Review your order and make a secure payment.
+Review your order.
 
 ### Screenshots
 Here are some screenshots of the Grocery Delivery App in action:
