@@ -18,16 +18,15 @@ Welcome to the Grocery Delivery App, your one-stop solution for convenient groce
 
 ## About
 
-The Grocery Delivery App revolutionizes your grocery shopping experience. It allows you to shop from a variety of local retail stores, all from the comfort of your home. Say goodbye to long lines and crowded stores; order your groceries online and have them delivered to your doorstep.
+The Grocery Delivery App revolutionizes your grocery shopping experience. It allows you to shop from a variety of local retail stores, all from the comfort of your home. 
 
 ## Features
 
 - Browse and shop from multiple local retail stores.
-- Convenient delivery options, including same-day delivery.
+- Convenient delivery options.
 - Real-time tracking of your order.
 - Easy and secure payment methods.
-- Favorites and history for quick reordering.
-- Customer support for any assistance you need.
+
 
 ## Getting Started
 
