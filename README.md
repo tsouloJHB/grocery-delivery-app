@@ -45,7 +45,8 @@ Ready to start shopping? Follow these steps to get the Grocery Delivery App up a
    git clone https://github.com/tsouloJHB/grocery-delivery-app.git
 2.  cd grocery-delivery-app
 3.  flutter pub get
-4.flutter run
+4.  flutter run
+
 
 ### Usage
 Using the Grocery Delivery App is easy:
