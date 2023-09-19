@@ -1,4 +1,4 @@
-# groceries delivery
+# Groceries delivery
 
 A new Flutter project.
 
